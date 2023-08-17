@@ -1,0 +1,36 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    border: 20px solid greenyellow;
+    border-radius: 50px;
+}
+
+#result {
+    width: 100%;
+    padding: 05px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border: greenyellow;
+    background-color:aqua;
+}
+
+button:hover {
+    background-color:greenyellow;
+}
